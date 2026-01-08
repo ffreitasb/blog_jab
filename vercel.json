@@ -1,0 +1,6 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": "cd packages/blog-starter-kit/themes/hashnode && pnpm build",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "outputDirectory": "packages/blog-starter-kit/themes/hashnode/.next"
+}
